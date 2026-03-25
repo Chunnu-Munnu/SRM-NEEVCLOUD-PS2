@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+
+# Build / generated outputs
+dist/
+coverage/
+
+# DemoGen runtime data
+demogen/backend/browser_profile/
+demogen/backend/manual_edge_profile/
+demogen/backend/manual_capture/
+demogen/backend/shared/
+demogen/backend/__pycache__/
+demogen/backend/screenshots/*
+!demogen/backend/screenshots/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
